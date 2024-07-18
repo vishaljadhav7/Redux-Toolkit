@@ -6,11 +6,15 @@ const initialState = [
 ]
 
 const postSlice = createSlice({
-    name : "post",
+    name : "posts",
     initialState,
     reducers : {
 
     }
 })
 
+export const selectAllPosts = (state) => state.posts;
+
 export default postSlice.reducer;
+
+// what is the structure of the state/ store changes  so we'll create a selector in the slice itself & export it, now in that way the shape of the state ever change we don't have to go and make changes in each & every component in which we are making use of the state.posts, that is we can change only in the slice 
