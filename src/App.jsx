@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <h1>Vsite </h1>
+      <h1>Redux</h1>
      
     </>
   )
