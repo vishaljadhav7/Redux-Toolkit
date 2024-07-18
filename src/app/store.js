@@ -5,6 +5,6 @@ import postReducer from '../slices/postSlice';
 export const store = configureStore({
     reducer : {
       counter : counterReducer,
-      post : postReducer,
+      posts : postReducer,
     }
 })
